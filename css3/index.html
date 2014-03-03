@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS3 Animation</title>
+		<style>
+			body {
+				background-image: url(justinchung-svg2.svg);
+				background-color: black;
+				background-repeat: no-repeat;
+			}
+
+			/* Navigation Station Title */
+			.stationtitle {
+				margin: 35px 0px 0px 535px;
+				color: #FFCC66;
+				font: 20px Helvetica, sans-serif;
+				animation: pulse 2s ease 0s infinite normal;
+				-webkit-animation: pulse 2s ease 0s infinite alternate;
+			}
+
+			.navigationheader {
+				transition: all 0.8s ease 0s;
+				-webkit-transition: all 0.8s ease 0s;
+			}
+
+			.navigationheader:hover {
+				transform: translateX(-410px);
+				-webkit-transform: translateX(-410px);
+			}
+
+			@keyframes pulse {
+				0% { opacity: 0.4; }
+				100% { opacity: 1; }
+			}
+
+			@-webkit-keyframes pulse {
+				0% { opacity: 0.4; }
+				100% { opacity: 1; }
+			}
+
+
+			/* Foreword Navigational Scanner */
+			.starfield {
+				margin: 25px 0px 0px 258px;
+				border: 10px solid #5599FF;
+				background: black;
+				width: 349px;
+				height: 205px;
+				border-radius: 9px;
+				animation: pop-in 1.5s linear 0s infinite normal;
+				-webkit-animation: pop-in 1.5s linear 0s infinite normal;
+
+			}
+
+			@keyframes pop-in {
+				0% { opacity: 0.3; transform: scale(0); }
+				100% { opacity: 0.3; transform: scale(1); }
+			}
+
+			@-webkit-keyframes pop-in {
+				0% { opacity: 0.3; -webkit-transform: scale(0); }
+				100% { opacity: 0.3; -webkit-transform: scale(1); }
+			}
+
+			/* Akira-Class Starship Info Display */
+			.buttonspreads {
+				margin: 10px 0px 0px 87px;
+			}
+
+			a {
+				display: block;
+				background-image: url(akira.png);
+				height: 54px;
+				width: 694px;
+				transition-property: background-position;
+				transition-duration: 0.5s;
+				-webkit-transition-property: background-position;
+				-webkittransition-duration: 0.5s;
+			}
+
+			a:hover {
+				background-position: -40px 0;
+			}
+
+			a:active {
+				background-position: 0px -1000px;
+			}
+
+			/* Akira-Class Starship Dorsal View Inspector */
+			.starshipinspector {
+				width: 243px;
+				height: 150px;
+				margin: 1px 0px 0px 100px;
+				border: 1px solid;
+				perspective: 600px;
+				-webkit-perspective: 600px;
+			}
+
+			.picture {
+				transition-property: transform 1.5s;
+				transition-duration: 1.5s;
+				-webkit-transition-property: transform;
+				-webkit-transition-duration: 1.5s;
+			}
+
+			.picture:hover {
+				transform: rotate3d(0, 1, 0, -40deg);
+				-webkit-transform: rotate3d(0, 1, 0, -40deg);
+			}
+
+			.picture:active {
+				transform: rotate3d(0, 1, 0, 40deg);
+				-webkit-transform: rotate3d(0, 1, 0, 40deg);
+			}
+
+			
+
+		</style>
+
+	</head>
+
+	<body>
+		<div class="stationtitle"><h1 class="navigationheader">NAVIGATION</h1></div>
+		<div class="starfield"></div>
+		<div class="buttonspreads">
+			<a href="http://techspecs.acalltoduty.com/akira.html"></a>
+		</div>
+		<div class="starshipinspector">
+			<img class="picture" src="akira.jpg" alt="Akira" width="243" height="150">
+		</div>
+	</body>
+</html>

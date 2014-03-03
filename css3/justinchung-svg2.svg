@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Framework" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="800px" height="600px" viewBox="0 0 800 600" enable-background="new 0 0 800 600" xml:space="preserve">
+<path id="Upper_Elbow" fill="#F8991D" d="M792,577.37H107.543c-6.927,0-12.543-5.448-12.543-12.169V375H10v205.826
+	C10,586.998,15.395,592,22.048,592H792V577.37z"/>
+<path id="Lower_Elbow" fill="#F8991D" d="M95.2,367V33c0-6.627,5.373-12,12-12h685V6h-770c-6.627,0-12,6.035-12,13.48V367H95.2z"/>
+<rect x="163.2" y="-20.25" width="9" height="51"/>
+<rect x="278.8" y="-20.25" width="9" height="51"/>
+<rect x="510" y="-20.25" width="9" height="51"/>
+<rect x="394.4" y="-20.25" width="9" height="51"/>
+<rect x="625.601" y="-20.25" width="9" height="51"/>
+<rect x="741.2" y="-20.25" width="9" height="51"/>
+<rect x="5.2" y="81" width="95" height="9"/>
+<rect x="5.2" y="182" width="95" height="9"/>
+<rect x="5.2" y="226" width="95" height="9"/>
+<rect x="5" y="493" width="95" height="9"/>
+<image overflow="visible" width="540" height="385" xlink:href="starfield1.jpg"  transform="matrix(0.6426 0 0 0.5844 277.5 102.4995)">
+</image>
+<path fill="#5599FF" d="M621.68,97.5H278.954c-7.136,0-12.921,5.814-12.921,12.985v207.77c0,7.171,5.785,12.985,12.921,12.985
+	H621.68c7.137,0,12.921-5.814,12.921-12.985v-207.77C634.601,103.314,628.816,97.5,621.68,97.5z M621.994,307.11
+	c0,6.399-5.391,11.592-12.037,11.592H290.675c-6.648,0-12.037-5.191-12.037-11.592V121.63c0-6.402,5.389-11.592,12.037-11.592
+	h319.282c6.646,0,12.037,5.19,12.037,11.592V307.11z"/>
+</svg>
